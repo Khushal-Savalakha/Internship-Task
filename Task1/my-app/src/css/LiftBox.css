@@ -1,0 +1,25 @@
+/* src/App.css */
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+    grid-gap: 10px; /* Space between the boxes */
+    max-width: 300px; /* Set a max-width for the grid container */
+    margin: 50px auto; /* Center the container on the page */
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    font-size: 24px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .current_floor{
+    background-color: yellow;
+  }
+  
